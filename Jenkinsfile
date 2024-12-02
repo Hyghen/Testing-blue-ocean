@@ -17,10 +17,10 @@ cal'''
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             sh '''ls
-ll'''
+'''
           }
         }
 
